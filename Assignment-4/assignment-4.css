@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+}
+        body 
+        {
+            background-color:yellow;
+           
+        }
+      .parent{
+        background-color:orange;
+        padding:16px;
+        margin-top:11px;
+        box-sizing:border-box;
+      }
+        .child{
+            background-color:lime;
+            padding:16px;
+        }
+        .container{
+            width:100%;
+            background-color:aqua;
+            box-sizing:border-box;
+            padding:16px;
+        }
+        .container-child {
+            background-color: red;
+            height:50px;
+            margin-top:11px;
+        }
+        .new-child {
+            width:90%;
+            box-sizing:border-box;
+        }
