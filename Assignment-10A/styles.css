@@ -1,0 +1,38 @@
+.c2
+{
+    position:absolute;
+    left:75px;
+}
+
+.c3
+{
+    position: absolute;
+    left:96px;
+}
+.c4
+{
+    position:relative;
+    top:60px;
+}
+.c5
+{
+    position: relative;
+  
+}
+.c6
+{
+    position: relative;
+    bottom:25px;
+    left:25px;
+}
+.c7
+{
+    position: relative;
+    z-index:1;
+}
+.c8
+{
+    position:relative;
+    bottom:25px;
+    left:25px;
+}
