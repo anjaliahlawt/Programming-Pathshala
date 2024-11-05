@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 
-}
+ }
 
 
 .parent {
@@ -32,7 +32,7 @@
 }
 
 
-input {
+/* input {
 
     border-radius: 12px;
     padding: 8px 16px;
@@ -44,8 +44,43 @@ input {
     margin-right:auto;
     
 
+} */
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden; 
 }
 
+
+.search-container input {
+    flex: 1; 
+    padding: 8px 16px;
+    border: none; 
+    outline: none;
+    font-size: 16px;
+
+}
+
+.search-container button {
+
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+   
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #ccc;
+}
+
+/* Icon inside button */
+.search-container button img {
+    width: 16px;
+    height: 16px;
+}
 .child.five {
     height: 40px;
     width: 40px;
