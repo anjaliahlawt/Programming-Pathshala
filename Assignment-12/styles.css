@@ -81,21 +81,33 @@
     width: 16px;
     height: 16px;
 }
-.child.five {
+
+#circle {
     height: 40px;
     width: 40px;
     border-radius: 20px;
     border-width: 3px;
     border-color: orange;
+    border-style: solid;
     background-color: rgb(22, 135, 135);
-    transition: 600ms;
-
-
-    &:hover {
-        border: 9px dotted orange;
-
-    }
+    transition: 2s;
+    cursor:pointer;
+    margin:auto;
 }
+#menu-icon
+{
+    position:absolute;
+    display:none;
+    flex-direction:column;
+    gap:10px;
+    background-color:antiquewhite;
+    border-radius:8px;
+    padding:18px;
+    right:150px;
+    top:57px;
+    
+}
+
 
 
 #container {

@@ -1,0 +1,60 @@
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: darkblue;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    gap: 16px;
+    padding: 16px;
+}
+
+.child {
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;
+    padding: 10px;
+    transition: border-radius 2s;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 12px;
+    padding: 8px 16px;
+    outline: none;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+
+#circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: orange;
+    border-style: solid;
+    background-color: rgb(22, 135, 135);
+    transition: 2s;
+    cursor:pointer;
+    margin:auto;
+}
+#menu-icon
+{
+    position:absolute;
+    display:none;
+    flex-direction:column;
+    gap:10px;
+    background-color:antiquewhite;
+    border-radius:8px;
+    padding:18px;
+    right:300px;
+    top:57px;
+    
+}
